@@ -9,5 +9,9 @@ public class SimpleController {
     public String hello() {
         return "Hello World i'm build in Jenkins!";
     }
+    @GetMapping("/test")
+    public String test() {
+        return "Hello World i'm build in Jenkins!";
+    }
 
 }
