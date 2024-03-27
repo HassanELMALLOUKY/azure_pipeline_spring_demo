@@ -8,11 +8,11 @@ steps:
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
-    goals: 'clean package'
+    goals: 'clean install'
 
 - task: Maven@3
   inputs:
-    mavenPomFile: 'app/pom.xml'
+    mavenPomFile: 'pom.xml'
     goals: 'test'
 
 - task: PublishTestResults@2
