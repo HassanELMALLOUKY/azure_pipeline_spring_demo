@@ -11,7 +11,7 @@ public class SimpleController {
     }
     @GetMapping("/test")
     public String test() {
-        return "Hello World i'm build in Jenkins!";
+        return "Test build in Jenkins!";
     }
 
 }
