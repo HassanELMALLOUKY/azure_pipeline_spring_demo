@@ -7,7 +7,7 @@ public class SimpleController {
 
     @GetMapping
     public String hello() {
-        return "i'm build in Jenkins in EC2 Instance!";
+        return "i'm build in Jenkins in EC2 Instance on AWS!";
     }
     @GetMapping("/test")
     public String test() {
